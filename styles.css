@@ -1,0 +1,1044 @@
+html {
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+main {
+    margin: 0 1rem;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("drift-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subWelcome h3 {
+    margin-top: .5rem;
+    font-size: x-large;
+}
+
+.subWelcome p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.subWelcome {
+    color: black;
+    width: fit-content;
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.content {
+    display: flex;
+    background-color: white;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.left a {
+    text-decoration: none;
+    font-family: "Permanent Marker";
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.left a:link {
+    color: black;
+}
+
+.left a:visited {
+    color: black;
+}
+
+.left a:hover {
+    color: gray;
+}
+
+.content p {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.content img {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    font-family: 'Permanent Marker';
+    font-size: 1.5rem;
+    align-items: center;
+    padding-right: 1rem;
+    flex-direction: column;
+}
+
+nav a {
+    font-weight: bolder;
+    text-decoration: none;
+    width: 100%;
+}
+
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color:#fe9901;
+
+}
+
+nav .internalPages {
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    list-style-type: none;
+    width: fit-content;
+}
+
+.internalPages li {
+    padding-left: 1rem;
+}
+
+nav .socialMedia {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0;
+    margin: 0;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.socialMedia li {
+    padding-left: .5rem;
+
+}
+
+.socialMedia a {
+    font-size: 1rem;
+}
+
+.socialMedia a:hover {
+    font-size: 1.45rem;
+}
+
+nav #no-pad {
+    padding: 0;
+}
+
+.mobileContainer {
+    display: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.grid-container img {
+    height: auto;
+    width: 100%;
+    border-top: 5px solid #fe9901;
+    border-bottom: 5px solid #fe9901;
+    border-radius: 5px;
+}
+
+.grid-container .photo {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin: 1rem 0;
+    height: 75%;
+}
+
+.grid-container p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 1rem;
+    height: auto;
+    color: white;
+    height: fit-content;
+}
+
+.grid-container .right-align {
+    justify-content: flex-end;
+    padding-left: 0;
+    padding-right: 1rem;
+}
+
+.text {
+    display: flex;
+    align-content: center;
+    font-size: xx-large;
+    height: 77%;
+    align-items: center;
+}
+
+footer {
+    padding: 0 1rem;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+table {
+    background-image: url("drifty-wide.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+table, th, td {
+    border: #fe9901 3px solid;
+    border-collapse: collapse;
+    font-size: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 0 1rem;
+}
+
+th {
+    text-decoration: underline;
+}
+
+td {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    padding: 0 2rem;
+    border-left: #fe9901 3px dashed;
+    border-right: #fe9901 3px dashed;
+    width: fit-content;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.formCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.pForm {
+    text-align: center;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: .5rem .2rem;
+    text-align: center;
+}
+
+[type=submit], [type=reset] {
+    padding: .25rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.pics img {
+    max-width: 20%;
+    height: auto;
+    border-top: 5px solid #fe9901;
+    border-bottom: 5px solid #fe9901;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.mobilePics {
+    display: none;
+}
+
+.about-content {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background-color: lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 5px solid #fe9901;
+    border-bottom: 5px solid #fe9901;
+    border-radius: 5px;
+}
+
+.about-content p {
+    margin: 0 5rem;
+}
+
+@media only screen and (max-width: 846px) {
+    .content {
+        display: flex;
+        background-color: white;
+        padding-top: .25rem;
+        padding-bottom: .25rem;
+        justify-content: space-between;
+        width: 100%;
+        height: 5rem;
+    }
+
+    .left {
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        width: 100%;
+    }
+    
+    .left a {
+        text-decoration: none;
+        font-family: "Permanent Marker";
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    
+    .left a:link {
+        color: black;
+    }
+    
+    .left a:visited {
+        color: black;
+    }
+    
+    .left a:hover {
+        color: gray;
+    }
+    
+    .content p {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        margin: 0;
+    }
+    
+    .content img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    nav {
+        display: flex;
+        font-family: 'Permanent Marker';
+        font-size: 1rem;
+        align-items: center;
+        padding-right: 1rem;
+        flex-direction: column;
+    }
+    
+    nav a {
+        font-weight: bolder;
+        text-decoration: none;
+        width: 100%;
+    }
+    
+    nav a:link {
+        color: black;
+    }
+    
+    nav a:visited {
+        color: black;
+    }
+    
+    nav a:hover {
+        color:#fe9901;
+    
+    }
+    
+    nav .internalPages {
+        display: flex;
+        align-items: flex-start;
+        margin: 0;
+        list-style-type: none;
+        width: fit-content;
+        padding-left: .5rem;
+    }
+    
+    .internalPages li {
+        padding-left: .75rem;
+    }
+    
+    nav .socialMedia {
+        list-style-type: none;
+        display: flex;
+        align-items: flex-end;
+        padding-left: 0;
+        margin: 0;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .socialMedia li {
+        padding-left: .5rem;
+    
+    }
+    
+    .socialMedia a {
+        font-size: .75rem;
+    }
+    
+    .socialMedia a:hover {
+        font-size: 1rem;
+    }
+    
+    nav #no-pad {
+        padding: 0;
+    }
+
+    .welcome {
+        margin: auto;
+        margin-top: 1rem;
+        text-align: center;
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("drift-logo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .subWelcome h3 {
+        margin-top: .5rem;
+        font-size: x-large;
+    }
+    
+    .subWelcome p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-weight: bold;
+    }
+    
+    .subWelcome {
+        color: black;
+        width: fit-content;
+        border: 1px white solid;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px black;
+        margin: 0 .5rem;
+    }
+
+    table {
+        background-image: url("drifty-wide.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    table, th, td {
+        border: #fe9901 3px solid;
+        border-collapse: collapse;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    th, td {
+        padding: 0 1rem;
+    }
+    
+    th {
+        text-decoration: underline;
+    }
+    
+    td {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 584px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding-top: .25rem;
+        padding-bottom: .25rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        width: 100%;
+    }
+    
+    .left a {
+        text-decoration: none;
+        font-family: "Permanent Marker";
+        font-size: 2.5rem;
+        margin: 0;
+        margin-bottom: .5rem;
+        border-bottom: #fe9901 solid .25rem;
+    }
+    
+    .left a:link {
+        color: black;
+    }
+    
+    .left a:visited {
+        color: black;
+    }
+    
+    .left a:hover {
+        color: gray;
+    }
+
+    .content p {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        margin: 0;
+    }
+    
+    .content img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    nav {
+        display: flex;
+        font-family: 'Permanent Marker';
+        font-size: 1rem;
+        align-items: center;
+        padding-right: 0;
+        flex-direction: column;
+    }
+    
+    nav a {
+        font-weight: bolder;
+        text-decoration: none;
+        width: 100%;
+    }
+    
+    nav a:link {
+        color: black;
+    }
+    
+    nav a:visited {
+        color: black;
+    }
+    
+    nav a:hover {
+        color:#fe9901;
+    
+    }
+    
+    nav .internalPages {
+        display: flex;
+        margin: 0;
+        list-style-type: none;
+        width: fit-content;
+        padding-left: 0;
+    }
+    
+    .internalPages li {
+        padding-left: .75rem;
+    }
+    
+    .internalPages li:first-child {
+        padding-left: 0;
+    }
+
+    nav .socialMedia {
+        list-style-type: none;
+        display: flex;
+        padding-left: 0;
+        margin: 0;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .socialMedia li {
+        padding-left: .5rem;
+    }
+    
+    .socialMedia li:first-child {
+        padding-left: 0;
+    }
+
+    .socialMedia a {
+        font-size: .75rem;
+    }
+    
+    .socialMedia a:hover {
+        font-size: 1rem;
+    }
+    
+    nav #no-pad {
+        padding: 0;
+    }
+
+    .welcome {
+        margin: auto;
+        margin-top: 1rem;
+        text-align: center;
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("drift-logo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .subWelcome h3 {
+        margin-top: .5rem;
+        font-size: x-large;
+    }
+    
+    .subWelcome p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-weight: bold;
+    }
+    
+    .subWelcome {
+        color: black;
+        width: fit-content;
+        border: 1px white solid;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px black;
+        margin: 0 .5rem;
+    }
+
+    .pics {
+        display: none;
+    }
+
+    .mobilePics {
+        display: block;
+    }
+
+    .mobilePics img {
+        border-top: 5px solid #fe9901;
+        border-bottom: 5px solid #fe9901;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+
+    table {
+        background-image: url("drifty-wide.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    table, th, td {
+        border: #fe9901 3px solid;
+        border-collapse: collapse;
+        font-size: 1.0rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    th, td {
+        padding: 0 1rem;
+    }
+    
+    th {
+        text-decoration: underline;
+    }
+    
+    td {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 360px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding-top: 0;
+        padding-bottom: .25rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        width: 100%;
+    }
+    
+    .left a {
+        text-decoration: none;
+        font-family: "Permanent Marker";
+        font-size: 1.5rem;
+        margin: 0;
+        margin-bottom: .5rem;
+        border-bottom: #fe9901 solid .25rem;
+    }
+    
+    .left a:link {
+        color: black;
+    }
+    
+    .left a:visited {
+        color: black;
+    }
+    
+    .left a:hover {
+        color: gray;
+    }
+
+    .content p {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        margin: 0;
+    }
+    
+    .content img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    nav {
+        display: flex;
+        font-family: 'Permanent Marker';
+        font-size: .75rem;
+        align-items: center;
+        padding-right: 0;
+        flex-direction: column;
+    }
+    
+    nav a {
+        font-weight: bolder;
+        text-decoration: none;
+        width: 100%;
+    }
+    
+    nav a:link {
+        color: black;
+    }
+    
+    nav a:visited {
+        color: black;
+    }
+    
+    nav a:hover {
+        color:#fe9901;
+    
+    }
+    
+    nav .internalPages {
+        display: flex;
+        margin: 0;
+        list-style-type: none;
+        width: fit-content;
+        padding-left: 0;
+    }
+    
+    .internalPages li {
+        padding-left: .5rem;
+    }
+    
+    .internalPages li:first-child {
+        padding-left: 0;
+    }
+
+    nav .socialMedia {
+        list-style-type: none;
+        display: flex;
+        padding-left: 0;
+        margin: 0;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .socialMedia li {
+        padding-left: .5rem;
+    }
+    
+    .socialMedia li:first-child {
+        padding-left: 0;
+    }
+
+    .socialMedia a {
+        font-size: .5rem;
+    }
+    
+    .socialMedia a:hover {
+        font-size: .75rem;
+    }
+    
+    nav #no-pad {
+        padding: 0;
+    }
+
+    .welcome {
+        margin: auto;
+        margin-top: 1rem;
+        text-align: center;
+        height: 9rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("drift-logo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .subWelcome h3 {
+        margin-top: .25rem;
+        font-size: 1rem;
+        max-height: 9rem;
+    }
+    
+    .subWelcome p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-weight: bold;
+        font-size: .75rem;
+    }
+    
+    .subWelcome {
+        color: black;
+        width: fit-content;
+        border: 1px white solid;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px black;
+        margin: 0 .5rem;
+    }
+
+    .grid-container{
+        display: none;
+    }
+
+    .mobileContainer {
+        display: block;
+        margin-top: 2rem;
+    }
+    
+    .mobileContainer img {
+        height: auto;
+        width: 100%;
+        border-top: 5px solid #fe9901;
+        border-bottom: 5px solid #fe9901;
+        border-radius: 5px;
+    }
+    
+    .mobileContainer .photo {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: 1rem 0;
+        height: 75%;
+    }
+    
+    .mobileContainer p {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        height: auto;
+        color: white;
+        height: fit-content;
+        margin-bottom: .25rem;
+    }
+    
+    .text {
+        display: flex;
+        align-content: center;
+        font-size: large;
+        align-items: center;
+        height: 100%;
+        border-bottom: black .1rem solid;
+    }
+
+    .mobileContainer .right-align {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    footer {
+        padding: 0 1rem;
+        font-weight: bold;
+        opacity: 0.5;
+        font-size: .5rem;
+    }
+
+    .about-content {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        background-color: lightgray;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-top: 5px solid #fe9901;
+        border-bottom: 5px solid #fe9901;
+        border-radius: 5px;
+    }
+    
+    .about-content p {
+        margin: 0 1rem;
+    }
+    
+    .pics {
+        display: none;
+    }
+
+    .mobilePics {
+        display: block;
+    }
+
+    .mobilePics img {
+        border-top: 5px solid #fe9901;
+        border-bottom: 5px solid #fe9901;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+
+    table {
+        background-image: url("drifty-wide.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    table, th, td {
+        border: #fe9901 1px solid;
+        border-collapse: collapse;
+        font-size: .5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    th, td {
+        padding: 0 .5rem;
+    }
+    
+    th {
+        text-decoration: underline;
+    }
+    
+    td {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        padding: 0 .5rem;
+        border-left: #fe9901 2px dashed;
+        border-right: #fe9901 2px dashed;
+        width: fit-content;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .formCenter {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pForm {
+        text-align: center;
+        font-size: .75rem;
+    }
+    
+    input {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        padding: .5rem .2rem;
+        text-align: center;
+    }
+    
+    [type=submit], [type=reset] {
+        padding: .25rem 1rem;
+        margin-bottom: 1rem;
+    }
+}
